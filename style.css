@@ -24,3 +24,13 @@ body {
 	flex-shrink: 0;
 	max-width: 100%;
 }
+/* Styles for the project status badge */
+.status-tag {
+	display: inline-block;
+	border: 1px solid lemonchiffon;
+	border-radius: 15px;
+	padding: 2px 10px;
+	font-size: 14px;
+	margin-top: 10px;
+	opacity: 0.8;
+}
