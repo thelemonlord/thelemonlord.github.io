@@ -3,7 +3,26 @@ body {
 	color: lemonchiffon;
 	font-family: monospace;
 	margin:40px auto;
-	max-width: 650px;
+	max-width: 1000px;
 	line-height: 1.8;
 	font-size: 18px;
+}
+.project-row {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-bottom: 50px;
+	flex-wrap: wrap;
+}
+
+
+.project-row iframe {
+	flex-shrink: 0;
+	max-width: 100%;
+}
+
+
+.role-text {
+	flex: 1;
+	min-width: 200px;
 }
